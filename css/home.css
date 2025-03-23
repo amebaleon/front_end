@@ -1,0 +1,48 @@
+.home-introduction-banner-container {
+  height: 720px;
+  position: relative;
+  background-image: url(../assets/images/7.png);
+  background-repeat: no-repeat;
+}
+
+.home-introduction-banner {
+  background-color: #FFF3E3;
+  width: 644px;
+  position: absolute;
+  right: 54px;
+  bottom: 228px;
+  padding: 72px 48px 26px 36px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 46px;
+}
+
+
+.home-introduction-banner .home-introduction-banner-sub-title {
+  font-weight: 500;
+  letter-spacing: 3px;
+}
+
+.home-introduction-banner .home-introduction-banner-title {
+  line-height: 65px;
+  font-size: 52px;
+  color: #B88E2F;
+  font-weight: bold;
+  margin-bottom: 18px;
+}
+
+.home-introduction-banner .home-introduction-banner-desciprion {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.home-introduction-banner .home-introduction-banner-nav-btn {
+  background-color: #B88E2F;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 26px 72px;
+}
