@@ -1,0 +1,90 @@
+/* token */
+:root {
+  --text: #000000;
+  --text-light: #3a3a3a;
+  --text-dark: #333333;
+  --primary: #b88e2f;
+  --secondoary: #fff3e3;
+  --brown: #fcf8f3;
+  --red_accents: #e97171;
+  --green_accents: #2ec1ac;
+  --white: #ffffff;
+  --grey-1: #9f9f9f;
+  --gray-2: #d9d9d9;
+  --gray-3: #f4f5f7;
+  --grey-4: #898989;
+  --grey-5: #666666;
+}
+
+/* fonts */
+@font-face {
+  font-family: poppins;
+  src: url("../assets/fonts/Poppins-Regular.ttf");
+}
+
+* {
+  font-family: poppins;
+}
+
+/* width */
+.w-240 {
+  width: 240px;
+}
+
+/* hegith */
+.h-100vh {
+  height: 100vh;
+}
+
+/* flex */
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* conatiner */
+.root-container-1440 {
+  display: block;
+  width: 1440px;
+  margin: 0 auto;
+}
+
+/* header */
+.root-nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 28px 54px;
+}
+
+.root-nav-header > .root-nav-header-logo-container {
+  display: flex;
+  font-size: 34px;
+  align-items: center;
+  font-weight: bold;
+}
+
+.root-nav-header-logo-container > img.root-nav-header-logo {
+  width: 50px;
+  height: 32px;
+}
+
+.root-nav-header > .root-nav-header-gnb {
+  display: flex;
+  justify-content: space-between;
+  width: 430px;
+  font-weight: 500;
+}
+
+.root-nav-header > .root-nav-icon-container {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
